@@ -1,0 +1,40 @@
+PSM - Pratical Software Measurement
+De um ponto de vista prático, o PSM procura resolver dois problemas: 
+(1)como especificar formalmente as medidas a serem usadas
+(2)como conduzir o processo de medição 
+
+O PSM alcança esse objetivos através de dois modelos:
+(1)Modelo de Informação
+(2)Modelo de Processo
+
+(1) Modelo de Informação:
+O modelo de informação do PSM é uma estrutura para a definição das medidas a serem utilizadas em um projeto. O modelo define os seguintes conceitos:
+* Atributo - Propriedad relevante da ótica das necessidades de informação.
+* Método - Operação que mapeia o atributo para um escala
+* Medida Básica - Valor resultante da aplicação do método a um atributo.
+* Função - Algoritmo combinando duas ou mais medidas básicas.
+* Medida derivada - Valor resultante da aplicação de uma função.
+* Modelo - Algoritmo combinando medidas e cirtérios de decisão.
+* Indicador - Estimativa que provê uma base para a tomada de decisão.
+
+(2) Modelo de Processo:
+O modelo de processo do PSM orienta o praticante na condução das atividades de medição em um projeto de desenvolvimento de software.
+O processo central de mensuração do PSM envolve os seguintes subprocessos:
+1) Planejar mensuração
+  * Identificar e priorizar necessidades de informação
+  * Selecionar e especificar medidas
+  * Integrar mensuração aos processos do projeto
+
+2) Executar mensuração
+  * Coletar e processar dados
+  * Analisar dados
+  * Produzir recomendações
+
+Processos não-centrais
+1) Avaliar mensuração
+  * Avaliar medidas
+  * Avaliar o processo de mensuração
+  * Atualizar a base de experiência
+  * Identificar e implementar melhorias
+
+2) Estabelecer e sustentar comprometimento

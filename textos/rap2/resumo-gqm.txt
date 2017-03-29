@@ -1,0 +1,49 @@
+Goal Question Metric Paradigm (GQM)
+Medição, para ser efetiva, segundo estudos feito na aplicação de métricas e modelos em ambientes industriais, tem que ser:
+1. Focada em metas especificas
+2. Aplicada em todo o ciclo de vida de produtos, processos e recursos
+3. Interpretada baseado na caracterização e compreendimento do contexto organizacional, ambiente e metas
+
+Há uma variedade de mecanismos para definir metas de medição que apareceream na literura:
+A abordagem Quality Function Deployment (Kogure e Akao), a abordagem Goal Question Metric (Basili) e a abordagem Software Quality Metrics (Boehm e McCall)
+
+A Abordagem GQM
+É baseada na suposição que para uma organização medir de uma forma próspera, ela precisa rastrear as metas (goals) para ela mesma e os seus projetos
+ai então rastrear as metas para os dados que ela pretende definir operacionalmente e, por fim, prover um framework para interpretar os dados respeitando as metas definidas.
+
+o GQM tem três níves:
+1. Nível Conceitual (Meta): Uma meta é definida para um objeto, para uma variedade de razões, respeitando várias modelos de qualidade, de vários pontos de vista, relativo a um ambiente em particular.
+Objetos de medidas são:
+  * Produtos: Artefatos, entregráveis e documentos que são produzidos durente o ciclo de vida do sistema
+  * Processos: Atividades relacionas com software, normalemnte associadas a tempo
+  * Recursos: Itens usados pelos processos em ordem de produzir suas saídas (outputs)
+
+2. Nível Operacional: Uma série de perguntas que são usadas para caracterizar o caminho da avaliação/conquista de uma meta em especifico.
+As questões tentam caracterizar os objeto de medição (produto, processo, recurso) respeitando uma qualidade selecionada e para determinar esta qualidade do ponto de vista selecionado.
+
+3. Nível Quantitativo: Um conjunto de dados é associado com cada questão em ordem a respondê-la num modo quantitativo. Os dados podem ser:
+  * Objetivos; Se eles dependem apensa do objeto que está sendo medido e não de um ponto de vista onde o se considerou no objeto (núemro de versões de um documento, tamanho do programa, horas gastas em uma tarefa)
+  * Subjetivos: Se eles dependem de ambos, objeto que está sendo medido e ponto de vista considerado (nível de satisfação do usuário, legibilidade de um documento)
+
+  Modelo Hierárquico GQM
+
+     Meta(GOAL)
+  /       |      \
+Quest. Quest.  Quest.   (Questão)
+  |          \   |
+Métrica     Métrica
+
+Meta: Especificar o proposito da medição
+      Objeto a ser medido
+      Questão (issue) a ser medida
+      Ponto de vista o qual a medida vai ser feita
+
+Questão: Quebra a meta em questionamentos mais elaborados para se alcacem aquela meta.
+
+Métrica: Refinamento das questões com medidas que possam auxiliar e/ou responder a questão que está associada
+
+O Processo do GQM
+Um modelo de GQM é desenvolvido pela identificação de um conjunto de qualidade e/ou metas de produtividade, em empresas, divisões ou a nível de projeto.
+Das metas e baseados em modelos do objeto da medição, nós derivamos questionamentos que definem essas metas o mais completo possível.
+O próximo passo consiste em especificar as medidas que precisarão ser coletadas para que seja respondidas as questões e para localizar a conformidade dos produtos e processo com a meta.
+Depois das medidas especificados é preciso desenvolver mecanismos de coleta de daods, incluindo mecanismos de validação e análise.
